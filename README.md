@@ -15,12 +15,12 @@
 ## Captures d'écran
 
 ## TO DO 
-[] Cahier des charges 
-[] Maquette 
-[] Choix du langage et de l'IDE 
-[] Mettre en place la structure de code (quelles classes, quelles fonctions)
-[] Représentations graphiques des objets 
-[] Code 
-[] Test 
-[] Démo 
-[] dodo
+- [] Cahier des charges 
+- [] Maquette 
+- [] Choix du langage et de l'IDE 
+- [] Mettre en place la structure de code (quelles classes, quelles fonctions)
+- [] Représentations graphiques des objets 
+- [] Code 
+- [] Test 
+- [] Démo 
+- [] dodo
