@@ -40,3 +40,27 @@
 .read-the-docs {
   color: #888;
 }
+
+
+root{
+  --blueprimary:#0E0A4F;
+  --bluesecondary: #3E497A;
+  --yellow: #FDDE24;
+  --silver :#F0F0F0;
+  --white : #FFFFFF;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body,main,:root{
+  height: 100%;
+}
+
+.container{
+  display: flex;
+  flex-flow: row nowrap;
+}
