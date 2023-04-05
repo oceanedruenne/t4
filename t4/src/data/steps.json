@@ -55,22 +55,42 @@
       {
         "value": "Ça dure depuis longtemps votre truc ?",
         "label": "Ça dure depuis longtemps votre truc ?",
-        "trigger": "answer2_1"
+        "trigger": "answer2_1",
+        "motivation":5,
+        "inquietude":0,
+        "satisfaction":5,
+        "comprehension":0,
+        "thinking":"Oula comment il parle, ça donne pas trop envie de continuer le rdv..."
       },
       {
         "value": "Vous avez ça depuis quand ?",
         "label": "Vous avez ça depuis quand ?",
-        "trigger": "answer2_2"
+        "trigger": "answer2_2",
+        "motivation":5,
+        "inquietude":0,
+        "satisfaction":5,
+        "comprehension":0,
+        "thinking":""
       },
       {
         "value": "Vous avez cette douleur depuis combien de temps ?",
         "label": "Vous avez cette douleur depuis combien de temps ?",
-        "trigger": "answer2_3"
+        "trigger": "answer2_3",
+        "motivation":5,
+        "inquietude":0,
+        "satisfaction":0,
+        "comprehension":0,
+        "thinking":""
       },
       {
         "value": "Est ce que cela vous fait mal depuis longtemps ?",
         "label": "Est ce que cela vous fait mal depuis longtemps ?",
-        "trigger": "answer2_4"
+        "trigger": "answer2_4",
+        "motivation":5,
+        "inquietude":0,
+        "satisfaction":0,
+        "comprehension":0,
+        "thinking":""
       }
     ]
   },
@@ -100,22 +120,42 @@
       {
         "value": "Y'a des cardiaques dans votre famille aussi ?",
         "label": "Y'a des cardiaques dans votre famille aussi ?",
-        "trigger": "answer3_1"
+        "trigger": "answer3_1",
+        "motivation":0,
+        "inquietude":5,
+        "satisfaction":0,
+        "comprehension":0,
+        "thinking":""
       },
       {
         "value": "Vous êtes le premier à avoir ça dans votre famille ?",
         "label": "Vous êtes le premier à avoir ça dans votre famille ?",
-        "trigger": "answer3_2"
+        "trigger": "answer3_2",
+        "motivation":0,
+        "inquietude":5,
+        "satisfaction":0,
+        "comprehension":0,
+        "thinking":""
       },
       {
         "value": "Est ce que vous savez s'il y a des membres de votre famille qui ont eu des maladies cardiaques ? Angine de poitrine, crise cardiaque.. ?",
         "label": "Est ce que vous savez s'il y a des membres de votre famille qui ont eu des maladies cardiaques ? Angine de poitrine, crise cardiaque.. ?",
-        "trigger": "answer3_3"
+        "trigger": "answer3_3",
+        "motivation":0,
+        "inquietude":5,
+        "satisfaction":0,
+        "comprehension":0,
+        "thinking":""
       },
       {
         "value": "Vos parents ont eu ça aussi ou pas ?",
         "label": "Vos parents ont eu ça aussi ou pas ?",
-        "trigger": "answer3_4"
+        "trigger": "answer3_4",
+        "motivation":0,
+        "inquietude":5,
+        "satisfaction":0,
+        "comprehension":0,
+        "thinking":""
       }
     ]
   },
@@ -145,22 +185,42 @@
       {
         "value": "Y'a des trucs qui vous aident ou pas ?",
         "label": "Y'a des trucs qui vous aident ou pas ?",
-        "trigger": "answer4_1"
+        "trigger": "answer4_1",
+        "motivation":0,
+        "inquietude":0,
+        "satisfaction":0,
+        "comprehension":0,
+        "thinking":""
       },
       {
         "value": "Est ce que vous réussissez à vous calmer ?",
         "label": "Est ce que vous réussissez à vous calmer ?",
-        "trigger": "answer4_2"
+        "trigger": "answer4_2",
+        "motivation":0,
+        "inquietude":0,
+        "satisfaction":0,
+        "comprehension":0,
+        "thinking":""
       },
       {
         "value": "Est ce que vous avez remarqué des choses qui font que la douleur s'atténue ou pas du tout ?",
         "label": "Est ce que vous avez remarqué des choses qui font que la douleur s'atténue ou pas du tout ?",
-        "trigger": "answer4_3"
+        "trigger": "answer4_3",
+        "motivation":0,
+        "inquietude":0,
+        "satisfaction":0,
+        "comprehension":0,
+        "thinking":""
       },
       {
         "value": "Est ce que le fait de s'asseoir, de boire de l'eau, de vous pencher en avant diminue vos douleurs ?",
         "label": "Est ce que le fait de s'asseoir, de boire de l'eau, de vous pencher en avant diminue vos douleurs ?",
-        "trigger": "answer4_4"
+        "trigger": "answer4_4",
+        "motivation":0,
+        "inquietude":0,
+        "satisfaction":0,
+        "comprehension":0,
+        "thinking":""
       }
     ]
   },
@@ -190,22 +250,42 @@
       {
         "value": "Et ça vient tout seul ou vous faites quelque chose ?",
         "label": "Et ça vient tout seul ou vous faites quelque chose ?",
-        "trigger": "answer5_1"
+        "trigger": "answer5_1",
+        "motivation":0,
+        "inquietude":0,
+        "satisfaction":0,
+        "comprehension":0,
+        "thinking":""
       },
       {
         "value": "Vous savez pourquoi ça vient ?",
         "label": "Vous savez pourquoi ça vient ?",
-        "trigger": "answer5_2"
+        "trigger": "answer5_2",
+        "motivation":0,
+        "inquietude":5,
+        "satisfaction":5,
+        "comprehension":0,
+        "thinking":"Ben non c'est pour ça que je viens, il est con ou quoi"
       },
       {
         "value": "Est ce que vous avez remarqué des éléments déclencheurs de votre douleur, que ce soit l'horaire, le stress, la fatigue etc ?",
         "label": "Est ce que vous avez remarqué des éléments déclencheurs de votre douleur, que ce soit l'horaire, le stress, la fatigue etc ?",
-        "trigger": "answer5_3"
+        "trigger": "answer5_3",
+        "motivation":0,
+        "inquietude":5,
+        "satisfaction":5,
+        "comprehension":0,
+        "thinking":"Ah c'est vrai que c'est régulier quand même..."
       },
       {
         "value": "C'est vos enfants qui vous mettent dans cet état là ?",
         "label": "C'est vos enfants qui vous mettent dans cet état là ?",
-        "trigger": "answer5_4"
+        "trigger": "answer5_4",
+        "motivation":0,
+        "inquietude":5,
+        "satisfaction":5,
+        "comprehension":5,
+        "thinking":"Hein mais pourquoi on parle de mes enfants ??? j'en ai même pas jpp"
       }
     ]
   },
@@ -235,22 +315,43 @@
       {
         "value": "Vous avez mal comment ?",
         "label": "Vous avez mal comment ?",
-        "trigger": "answer6_1"
+        "trigger": "answer6_1",
+        "motivation":5,
+        "inquietude":0,
+        "satisfaction":5,
+        "comprehension":0,
+        "thinking":""
       },
       {
         "value": "C'est quoi vos douleurs ?",
         "label": "C'est quoi vos douleurs ?",
-        "trigger": "answer6_2"
+        "trigger": "answer6_2",
+        "motivation":0,
+        "inquietude":0,
+        "satisfaction":0,
+        "comprehension":0,
+        "thinking":""
+        
       },
       {
         "value": "Est ce que c'est une douleur vive, comme un coup de couteau, ou est ce que c'est une douleur qui vous serre au niveau du coeur ? Est ce que vous avez des douleurs dans les bras, la mâchoire ?",
         "label": "Est ce que c'est une douleur vive, comme un coup de couteau, ou est ce que c'est une douleur qui vous serre au niveau du coeur ? Est ce que vous avez des douleurs dans les bras, la mâchoire ?",
-        "trigger": "answer6_3"
+        "trigger": "answer6_3",
+        "motivation":5,
+        "inquietude":0,
+        "satisfaction":5,
+        "comprehension":5,
+        "thinking":"Ah oui j'ai plus une douleur au coeur c'est vrai"
       },
       {
         "value": "Vous avez quoi en plus d'avoir mal au coeur ?",
         "label": "Vous avez quoi en plus d'avoir mal au coeur ? ",
-        "trigger": "answer6_4"
+        "trigger": "answer6_4",
+        "motivation":5,
+        "inquietude":0,
+        "satisfaction":5,
+        "comprehension":0,
+        "thinking":"Bah jsuis là pour mon coeur en premier lieu hein"
       }
     ]
   },
@@ -280,22 +381,43 @@
       {
         "value": "Est ce que vous vivez correctement ? Parce que si vous fumez, buvez et êtes angoissé ça vaut pas la peine d'aller plus loin, faut vous remettre en question",
         "label": "Est ce que vous vivez correctement ? Parce que si vous fumez, buvez et êtes angoissé ça vaut pas la peine d'aller plus loin, faut vous remettre en question",
-        "trigger": "answer7_1"
+        "trigger": "answer7_1",
+        "motivation":10,
+        "inquietude":10,
+        "satisfaction":15,
+        "comprehension":10,
+        "thinking":"Il est sérieux là !?"
+
       },
       {
         "value": "Est ce que vous êtes un fétard ? Alcool, cigarettes...",
         "label": "Est ce que vous êtes un fétard ? Alcool, cigarettes...",
-        "trigger": "answer7_2"
+        "trigger": "answer7_2",
+        "motivation":10,
+        "inquietude":10,
+        "satisfaction":15,
+        "comprehension":10,
+        "thinking":"Il est sérieux là !?"
       },
       {
         "value": "Est ce que vous êtes dans un contexte particulièrement stressant en ce moment ? Est ce que vous fumez ?",
         "label": "Est ce que vous êtes dans un contexte particulièrement stressant en ce moment ? Est ce que vous fumez ?",
-        "trigger": "answer7_3"
+        "trigger": "answer7_3",
+        "motivation":5,
+        "inquietude":5,
+        "satisfaction":5,
+        "comprehension":5,
+        "thinking":"C'est vrai que j'suis stressé un peu en ce moment..."
       },
       {
         "value": "Est ce que vous avez fait un changement dans vos habitudes de vie, que ce soit la nourriture, le sport, le café, le tabac ?",
         "label": "Est ce que vous avez fait un changement dans vos habitudes de vie, que ce soit la nourriture, le sport, le café, le tabac ?",
-        "trigger": "answer7_4"
+        "trigger": "answer7_4",
+        "motivation":5,
+        "inquietude":0,
+        "satisfaction":5,
+        "comprehension":5,
+        "thinking":"C'est vrai qu'il y a eu des changements..."
       }
     ]
   },
@@ -392,23 +514,142 @@
   {
     "id": "answer9_1",
     "message": "Non je ne préfère pas, ça me fait peur.",
-    "trigger": "tenth_issues"
+    "trigger": "auscultation"
   },
   {
     "id": "answer9_2",
     "message": "Est ce que je suis obligé d'enlever le haut ?",
-    "trigger": "tenth_issues"
+    "trigger": "auscultation"
   },
   {
     "id": "answer9_3",
     "message": " Oui bien sûr !",
-    "trigger": "tenth_issues"
+    "trigger": "auscultation"
   },
   {
     "id": "answer9_4",
     "message": "Ok.",
-    "trigger": "tenth_issues"
+    "trigger": "auscultation"
   },
+  {
+    "id": "auscultation",
+    "options": [
+      {
+        "value": "Dire les bonnes mesures lors de l'ausculation",
+        "label": "Dires les bonnes mesures lors de l'ausculation",
+        "motivation":0,
+        "inquietude":10,
+        "satisfaction":5,
+        "comprehension":0,
+        "thinking":"ouf",
+        "trigger": "more_questions"
+
+      },
+      {
+        "value": "Dire les mauvaises mesures lors de l'ausculation",
+        "label": "Dire les mauvaises mesures lors de l'ausculation",
+        "motivation":0,
+        "inquietude":5,
+        "satisfaction":10,
+        "comprehension":0,
+        "thinking":"je m'en doutais..",
+        "trigger": "more_questions"
+      },
+      {
+        "value": "Dire des termes cliniques lors de l'auscultation.",
+        "label": "Dire des termes cliniques lors de l'auscultation.",
+        "motivation":5,
+        "inquietude":5,
+        "satisfaction":0,
+        "comprehension":10,
+        "thinking":"Mais j'y comprends rien moi",
+        "trigger": "more_questions"
+      },
+      {
+        "value": "Dire des termes simples",
+        "label": "Dire des termes simples",
+        "motivation":5,
+        "inquietude":10,
+        "satisfaction":5,
+        "comprehension":10,
+        "thinking":"",
+        "trigger": "more_questions"
+      },
+      {
+        "value": "Ne rien dire",
+        "label": "Ne rien dire",
+        "motivation":5,
+        "inquietude":5,
+        "satisfaction":5,
+        "comprehension":10,
+        "thinking":"Pourquoi il dit rien ?",
+        "trigger": "more_questions"
+      }
+    ]
+  },
+  {
+    "id": "more_questions",
+    "options": [
+      {
+        "value": "Poser des questions plus franches",
+        "label": "Poser des questions plus franches",
+        "motivation":0,
+        "inquietude":0,
+        "satisfaction":0,
+        "comprehension":0,
+        "thinking":"",
+        "trigger": "verdict"
+
+      },
+      {
+        "value": "Ne pas poser plus de questions",
+        "label": "Ne pas poser plus de questions",
+        "motivation":0,
+        "inquietude":0,
+        "satisfaction":5,
+        "comprehension":0,
+        "thinking":"",
+        "trigger": "verdict"
+      }
+    ]
+  },
+  {
+    "id": "verdict",
+    "options": [
+      {
+        "value": "Expliquer que c'est une maladie grave",
+        "label": "Expliquer que c'est une maladie grave",
+        "motivation":5,
+        "inquietude":10,
+        "satisfaction":10,
+        "comprehension":10,
+        "thinking":"Je suis vraiment mal barré",
+        "trigger": "tenth_issues"
+
+      },
+      {
+        "value": "Expliquer le diagnostic",
+        "label": "Expliquer le diagnostic",
+        "motivation":5,
+        "inquietude":10,
+        "satisfaction":5,
+        "comprehension":10,
+        "thinking":"Ah au final ça va, je comprends ce que j'ai..",
+        "trigger": "tenth_issues"
+      },
+      {
+        "value": "Ne rien expliquer",
+        "label": "Ne rien expliquer",
+        "motivation":5,
+        "inquietude":5,
+        "satisfaction":5,
+        "comprehension":5,
+        "thinking":"Il m'explique pas là !? Je comprends rien..",
+        "trigger": "tenth_issues"
+      }
+    ]
+  },
+
   {
     "id": "tenth_issues",
     "options": [
@@ -437,21 +678,45 @@
   {
     "id": "answer10_1",
     "message": "Je pense que je sais très bien que mes habitudes de vie sont mauvaises, mais j'aimerai tout de même faire des examens complémentaires.",
-    "end": true
+    "trigger":"rdv"
   },
   {
     "id": "answer10_2",
     "message": "Je n'ai pas envie de commencer un traitement d'anxiolytiques : je sais que c'est compliqué après pour les arrêter.",
-    "end": true
+    "trigger":"rdv"
   },
   {
     "id": "answer10_3",
     "message": "D'accord, merci beaucoup, ça me rassure un petit peu.",
-    "end": true
+    "trigger":"rdv"
   },
   {
     "id": "answer10_4",
     "message": "Mais on verra quoi dans la prise de sang ?",
-    "end": true
+    "trigger":"rdv"
+  },
+  {
+    "id": "rdv",
+    "options": [
+      {
+        "value": "Je vous propose que l'on se revoit assez vite",
+        "label": "Je vous propose que l'on se revoit assez vite",
+        "motivation":0,
+        "inquietude":5,
+        "satisfaction":5,
+        "comprehension":5,
+        "thinking":"Bon bah s'il faut revenir..."
+
+      },
+      {
+        "value": "On doit se revoir le plus vite possible",
+        "label": "On doit se revoir le plus vite possible",
+        "motivation":0,
+        "inquietude":15,
+        "satisfaction":0,
+        "comprehension":0,
+        "thinking":"Oulala mais c'est très très grave"
+      }
+    ]
   }
 ]

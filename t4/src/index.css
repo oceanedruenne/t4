@@ -173,3 +173,8 @@ preloader {
   from {-webkit-transform: scale(0, 0);}
   to {-webkit-transform: scale(1, 1);}
 }
+
+#rules, #informations 
+{
+  border: 1px solid black;
+}
