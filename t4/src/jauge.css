@@ -1,0 +1,40 @@
+@import url("./App.css") print;
+
+#jauges {
+  display: flex;
+  box-sizing: border-box;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.jauge {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 45%;
+}
+
+.progress {
+  background: rgb(163, 162, 162);
+  border-radius: 100px;
+  align-items: center;
+  padding: 0 5px;
+  display: flex;
+  height: 30px;
+}
+
+.texte-jauge{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font-size : 1em;
+  font-weight: 600;
+}
+
+.progress-value {
+  color:white;
+  font-size: 1rem;
+  padding-left: .5rem;
+  border-radius: 50px;
+  background: rgb(71, 71, 255);
+}
