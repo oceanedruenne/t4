@@ -49,7 +49,7 @@ export default function Root() {
     <header>
     </header>
     <main id="main">
-        <Infos />
+        <Infos comprehension={comprehension} satisfaction={satisfaction} motivation={motivation} inquietude={inquietude}/>
         <Bot />
     </main>
     <footer>

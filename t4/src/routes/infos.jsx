@@ -1,8 +1,8 @@
 import chat from '../assets/images/brouillon.png'
-import Jauge from '../routes/jauge';
+import Jauges from '../routes/jauge';
 import person from '../data/person.json';
 
-export default function Infos() {
+export default function Infos({comprehension, motivation, inquietude, satisfaction}) {
     return  <div id="left_side">
                 <button 
                     id="rules" 
@@ -20,7 +20,7 @@ export default function Infos() {
                         {person.symptoms.map((symptom) => <li>{symptom}</li>)}
                     </ul>
                     <h3>Couverture : {person.cmu ? "oui" : "non"}</h3>
-                    <h3>Pensées du patient : {person.thinking}</h3>
+                    <h3>Pensées du patient :</h3>
                     <div class="container">
                         <div class="preloader">
                             <span class="black"></span>
@@ -29,11 +29,8 @@ export default function Infos() {
                         </div>
                     </div>
                     <div id="game_infos">
-                        <Jauge 
-                            defaultComprehension={person.comprehension}
-                            defaultInquietude={person.inquietude}
-                            defaultMotivation={person.motivation}
-                            defaultSastifaction={person.satisfaction}
+                        <Jauges comprehension={comprehension} inquietude={inquietude}
+                            motivation={motivation} satisfaction={satisfaction}
                         />
                     </div>
                 </div>
