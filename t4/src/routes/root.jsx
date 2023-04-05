@@ -1,4 +1,3 @@
-import { Outlet } from 'react-router-dom';
 import Infos from './infos'
 import ChatBot from './chatbot'
 import { useState } from 'react';
@@ -49,13 +48,10 @@ export default function Root() {
   return (<>
     <header>
     </header>
-    <main>
-      <div id="main">
+    <main id="main">
         <Infos comprehension={comprehension} inquietude={inquietude}
           motivation={motivation} satisfaction={satisfaction} />
         <ChatBot />
-      </div>
-      <Outlet />
     </main>
     <footer>
     </footer>
