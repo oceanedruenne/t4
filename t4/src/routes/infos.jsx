@@ -15,16 +15,16 @@ function InfosPatient() {
     </div>
 }
 
-export default function Infos()
+export default function Infos({comprehension, motivation, inquietude, satisfaction})
 {
     return (
         <div id="left_side" class="gradient-border">
             <InfosPatient />
             <div id="game_infos">
-                <Jauges defaultComprehension={person.comprehension}
-                    defaultInquietude={person.inquietude}
-                    defaultMotivation={person.motivation}
-                    defaultSastifaction={person.satisfaction} />
+                <Jauges comprehension={comprehension}
+                    inquietude={inquietude}
+                    motivation={motivation}
+                    satisfaction={satisfaction} />
             </div>
         </div>
     )

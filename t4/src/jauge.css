@@ -1,34 +1,38 @@
 @import url("./App.css") print;
 
-.param_text {
-  font-family: 'Montserrat', sans-serif;
-  font-size : 1em;
-  font-weight: 600;
+#jauges {
+  display: flex;
+  box-sizing: border-box;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.jauge {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 45%;
 }
 
 .progress {
   background: rgb(163, 162, 162);
-  justify-content: flex-start;
   border-radius: 100px;
   align-items: center;
-  position: relative;
   padding: 0 5px;
   display: flex;
   height: 30px;
-  width: 100%;
 }
 
 .texte-jauge{
-  margin: 1rem;
   display: flex;
   flex-flow: column;
   align-items: center;
+  font-size : 1em;
+  font-weight: 600;
 }
 
 .progress-value {
   color:white;
-  display: flex;
-  align-items: center;
   font-size: 1rem;
   padding-left: .5rem;
   border-radius: 50px;
