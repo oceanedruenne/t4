@@ -1,11 +1,11 @@
 import { useState } from 'react'
 
-export default function Jauge()
+export default function Jauge({defaultSastifaction, defaultInquietude, defaultMotivation, defaultComprehension})
 {
-  const [sastifaction, setSatisfaction] = useState(0);
-  const [inquietude, setInquietude]= useState(0);
-  const [motivation, SetMotivation] = useState(0);
-  const [comprehension, setComprehension] = useState(0);
+  const [sastifaction, setSatisfaction] = useState(defaultSastifaction);
+  const [inquietude, setInquietude]= useState(defaultInquietude);
+  const [motivation, SetMotivation] = useState(defaultMotivation);
+  const [comprehension, setComprehension] = useState(defaultComprehension);
 
 
   function addSat(note)
@@ -82,7 +82,7 @@ export default function Jauge()
   }
   
   return (
-    <>
+    <div id="jauges">
     <table style={{width:"100%"}}>
         <tr  style={{display: 'flex'}} >
       <td> 
@@ -124,6 +124,6 @@ export default function Jauge()
       </td>
     </tr>
     </table>
-    </>
+    </div>
   );
 }
