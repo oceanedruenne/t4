@@ -1,5 +1,5 @@
 import chat from '../assets/images/brouillon.png'
-import Jauge from '../routes/jauge';
+import Jauges from '../routes/jauge';
 import person from '../data/person.json';
 
 function InfosPatient() {
@@ -21,7 +21,7 @@ export default function Infos()
         <div id="left_side" class="gradient-border">
             <InfosPatient />
             <div id="game_infos">
-                <Jauge defaultComprehension={person.comprehension}
+                <Jauges defaultComprehension={person.comprehension}
                     defaultInquietude={person.inquietude}
                     defaultMotivation={person.motivation}
                     defaultSastifaction={person.satisfaction} />

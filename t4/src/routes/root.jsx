@@ -1,7 +1,7 @@
 import { NavLink, Link, Outlet } from 'react-router-dom';
 import Infos from './infos'
 import ChatBot from './chatbot'
-import Jauge from './jauge';
+import Jauges from './jauge';
 
 export default function Root() {
   return (<>
@@ -10,7 +10,7 @@ export default function Root() {
     <main>
     <div id="main">
         <Infos>
-          <Jauge></Jauge>
+          <Jauges></Jauges>
         </Infos>
         <ChatBot></ChatBot>
       </div>

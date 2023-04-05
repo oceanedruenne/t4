@@ -1,10 +1,23 @@
 import { useState } from 'react'
+import '../jauge.css'
 
-export default function Jauge({defaultSastifaction, defaultInquietude, defaultMotivation, defaultComprehension})
+function Jauge({name, value}) {
+  return (
+
+    <span className="texte-jauge">
+      <p className="param_text">{name}</p>
+      <div className="progress" style={{width: "90px"}}>
+        <div className="progress-value" style={{ width: value+ "%"}}> {value}%</div>
+      </div>
+    </span>
+  );
+}
+
+export default function Jauges({defaultSastifaction, defaultInquietude, defaultMotivation, defaultComprehension})
 {
   const [sastifaction, setSatisfaction] = useState(defaultSastifaction);
   const [inquietude, setInquietude]= useState(defaultInquietude);
-  const [motivation, SetMotivation] = useState(defaultMotivation);
+  const [motivation, setMotivation] = useState(defaultMotivation);
   const [comprehension, setComprehension] = useState(defaultComprehension);
 
 
@@ -12,8 +25,7 @@ export default function Jauge({defaultSastifaction, defaultInquietude, defaultMo
   {
     if(sastifaction!=100)
     {
-      console.log(note);
-      setSatisfaction(sastifaction+ note)
+      setSatisfaction(sastifaction + note)
     }
   }
 
@@ -21,7 +33,6 @@ export default function Jauge({defaultSastifaction, defaultInquietude, defaultMo
   {
     if(sastifaction!=0)
     {
-      console.log(note);
       setSatisfaction(sastifaction- note);
     }
   }
@@ -30,7 +41,6 @@ export default function Jauge({defaultSastifaction, defaultInquietude, defaultMo
   {
     if(inquietude!=100)
     {
-      console.log(note);
       setInquietude(inquietude+ note);
     }
    
@@ -40,7 +50,6 @@ export default function Jauge({defaultSastifaction, defaultInquietude, defaultMo
   {
     if(inquietude!=0) 
     {
-      console.log(note);
       setInquietude(inquietude- note);
     }
   }
@@ -49,8 +58,7 @@ export default function Jauge({defaultSastifaction, defaultInquietude, defaultMo
   {
     if(motivation!=100) 
     {
-      console.log(note);
-      SetMotivation(motivation+ note);
+      setMotivation(motivation+ note);
     }
   }
 
@@ -58,8 +66,7 @@ export default function Jauge({defaultSastifaction, defaultInquietude, defaultMo
   {
     if(motivation!=0)
     {
-      console.log(note);
-      SetMotivation(motivation- note);
+      setMotivation(motivation- note);
     }
   }
 
@@ -67,7 +74,6 @@ export default function Jauge({defaultSastifaction, defaultInquietude, defaultMo
   {
     if(comprehension!=100)
     {
-      console.log(note);
       setComprehension(comprehension+ note);
     }
   }
@@ -76,53 +82,22 @@ export default function Jauge({defaultSastifaction, defaultInquietude, defaultMo
   {
     if(comprehension!=0) 
     {
-      console.log(note);
       setComprehension(comprehension- note);
     }
   }
   
   return (
     <div id="jauges">
-    <table style={{width:"100%"}}>
-        <tr  style={{display: 'flex'}} >
-      <td> 
-        <span className="texte-jauge"> 
-          <p className="param_text">Compréhension</p>
-          <div className="progress"style={{width:'90%'}} >
-            <div className="progress-value" style={{ width: comprehension+ "%"}}> {comprehension}%</div>
-          </div>
-      </span>   
-      </td>
+    <table>
+      <tr style={{display: 'flex'}} >
+        <td><Jauge name="Compréhension" value={comprehension} /></td>
+        <td><Jauge name="Motivation" value={motivation} /></td>
+      </tr>
 
-      <td> 
-        <span className="texte-jauge"> 
-          <p className="param_text"> Motivation</p>
-          <div className="progress"style={{width:'120%'}} >
-            <div className="progress-value" style={{ width: motivation+ "%"}}> {motivation}%</div>
-          </div>
-        </span>
-      </td>
-    </tr>
-
-    <tr style={{ display: 'flex', paddingLeft:'5px'}}>
-      <td style={{paddingLeft:'10px'}}> 
-        <span className='texte-jauge'> 
-          <p className='param_text'> inquietude</p>
-          <div className='progress' style={{width:'130%'}} >
-            <div className='progress-value' style={{ width: inquietude+ "%"}}> {inquietude}%</div>
-          </div>
-        </span>
-      </td>
-
-      <td style={{paddingLeft:'15px'}}> 
-        <span className='texte-jauge'> 
-          <p className='param_text'> Satisfaction</p>
-          <div className='progress'style={{width:'100%'}}>
-            <div className='progress-value' style={{ width: sastifaction+ "%"}}> {sastifaction}%</div>
-        </div>
-        </span>  
-      </td>
-    </tr>
+      <tr style={{ display: 'flex', paddingLeft: '10px'}}>
+        <td><Jauge name="Inquiétude" value={inquietude} /></td>
+        <td><Jauge name="Satisfaction" value={sastifaction} /></td>
+      </tr>
     </table>
     </div>
   );
