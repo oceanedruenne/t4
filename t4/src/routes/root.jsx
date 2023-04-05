@@ -1,5 +1,5 @@
 import Infos from './infos'
-import ChatBot from './chatbot'
+import Bot from './chatbot'
 import { useState } from 'react';
 import person from '../data/person.json';
 
@@ -49,9 +49,8 @@ export default function Root() {
     <header>
     </header>
     <main id="main">
-        <Infos comprehension={comprehension} inquietude={inquietude}
-          motivation={motivation} satisfaction={satisfaction} />
-        <ChatBot />
+        <Infos />
+        <Bot />
     </main>
     <footer>
     </footer>
