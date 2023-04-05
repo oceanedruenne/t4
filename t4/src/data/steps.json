@@ -31,22 +31,22 @@
   },
   {
     "id": "answer1_1",
-    "message": " J'ai mal au coeur",
+    "message": "J'ai mal au coeur.",
     "trigger": "second_issues"
   },
   {
     "id": "answer1_2",
-    "message": "J'ai peur de faire une crise cardiaque et de mourir, j'ai des crises ou j'ai mal au coeur ",
+    "message": "J'ai peur de faire une crise cardiaque et de mourir, j'ai des crises ou j'ai mal au coeur.",
     "trigger": "second_issues"
   },
   {
     "id": "answer1_3",
-    "message": "J'ai des douleurs au niveau du thorax ",
+    "message": "J'ai des douleurs au niveau du thorax.",
     "trigger": "second_issues"
   },
   {
     "id": "answer1_4",
-    "message": "J'ai mal au coeur depuis quelques temps",
+    "message": "J'ai mal au coeur depuis quelques temps.",
     "trigger": "second_issues"
   },
   {
@@ -76,22 +76,22 @@
   },
   {
     "id": "answer2_1",
-    "message": "Ça fait des années je dirais",
+    "message": "Ça fait des années je pense.",
     "trigger": "third_issues"
   },
   {
     "id": "answer2_2",
-    "message": "Je ne sais pas trop, ça vient, ça part",
+    "message": "Je ne sais pas trop, ça vient, ça part.",
     "trigger": "third_issues"
   },
   {
     "id": "answer2_3",
-    "message": "Quelques jours, c'est assez récent",
+    "message": "Quelques jours, c'est assez récent.",
     "trigger": "third_issues"
   },
   {
     "id": "answer2_4",
-    "message": "Quelques semaines",
+    "message": "Quelques semaines.",
     "trigger": "third_issues"
   },
   {
@@ -103,30 +103,30 @@
         "trigger": "answer3_1"
       },
       {
-        "value": "Vous êtes le premier à avoir ça dans votre famille ? ",
-        "label": "Vous êtes le premier à avoir ça dans votre famille ? ",
+        "value": "Vous êtes le premier à avoir ça dans votre famille ?",
+        "label": "Vous êtes le premier à avoir ça dans votre famille ?",
         "trigger": "answer3_2"
       },
       {
-        "value": "Est ce que vous savez s'il y a des membres de votre famille qui ont eu des maladies cardiaques ? Angine de poitrine, crise cardiaque.. ? ",
-        "label": "Est ce que vous savez s'il y a des membres de votre famille qui ont eu des maladies cardiaques ? Angine de poitrine, crise cardiaque.. ? ",
+        "value": "Est ce que vous savez s'il y a des membres de votre famille qui ont eu des maladies cardiaques ? Angine de poitrine, crise cardiaque.. ?",
+        "label": "Est ce que vous savez s'il y a des membres de votre famille qui ont eu des maladies cardiaques ? Angine de poitrine, crise cardiaque.. ?",
         "trigger": "answer3_3"
       },
       {
-        "value": "Vos parents ont eu ça aussi ou pas ? ",
-        "label": "Vos parents ont eu ça aussi ou pas ? ",
+        "value": "Vos parents ont eu ça aussi ou pas ?",
+        "label": "Vos parents ont eu ça aussi ou pas ?",
         "trigger": "answer3_4"
       }
     ]
   },
   {
     "id": "answer3_1",
-    "message": "Pas à ma connaissance",
+    "message": "Pas à ma connaissance.",
     "trigger": "fourth_issues"
   },
   {
     "id": "answer3_2",
-    "message": "Non, mais j'ai des membres de ma famille qui souffrent d'hypertension",
+    "message": "Non, mais j'ai des membres de ma famille qui souffrent d'hypertension.",
     "trigger": "fourth_issues"
   },
   {
@@ -166,22 +166,22 @@
   },
   {
     "id": "answer4_1",
-    "message": "Rien",
+    "message": "Rien.",
     "trigger": "fifth_issues"
   },
   {
     "id": "answer4_2",
-    "message": "Marcher tranquillement, me vider la tête, prendre un bain ça m'aide à me calmer",
+    "message": "Marcher tranquillement, me vider la tête, prendre un bain ça m'aide à me calmer.",
     "trigger": "fifth_issues"
   },
   {
     "id": "answer4_3",
-    "message": "Quand je prends un Xanax ça va mieux après",
+    "message": "Quand je prends un Xanax ça va mieux après.",
     "trigger": "fifth_issues"
   },
   {
     "id": "answer4_4",
-    "message": "Le fait de m'asseoir, de boire de l'eau, de me mettre au repos ça me calme",
+    "message": "Le fait de m'asseoir, de boire de l'eau, de me mettre au repos ça me calme.",
     "trigger": "fifth_issues"
   },
   {
@@ -193,8 +193,8 @@
         "trigger": "answer5_1"
       },
       {
-        "value": "Vous savez pourquoi ça vient ? ",
-        "label": "Vous savez pourquoi ça vient ? ",
+        "value": "Vous savez pourquoi ça vient ?",
+        "label": "Vous savez pourquoi ça vient ?",
         "trigger": "answer5_2"
       },
       {
@@ -211,22 +211,22 @@
   },
   {
     "id": "answer5_1",
-    "message": "Ça vient surtout pendant mes séances de sport",
+    "message": "Ça vient surtout pendant mes séances de sport.",
     "trigger": "sixth_issues"
   },
   {
     "id": "answer5_2",
-    "message": "Je n'en ai aucune idée",
+    "message": "Je n'en ai aucune idée.",
     "trigger": "sixth_issues"
   },
   {
     "id": "answer5_3",
-    "message": "Ça vient surtout le soir avant de dormir, et particulièrement le dimanche soir",
+    "message": "Ça vient surtout le soir avant de dormir, et particulièrement le dimanche soir.",
     "trigger": "sixth_issues"
   },
   {
     "id": "answer5_4",
-    "message": "Non c'est aléatoire",
+    "message": "Non c'est aléatoire.",
     "trigger": "sixth_issues"
   },
   {
@@ -256,30 +256,30 @@
   },
   {
     "id": "answer6_1",
-    "message": "Comme si on tapait sur mon coeur",
+    "message": "Comme si on tapait sur mon coeur.",
     "trigger": "seventh_issues"
   },
   {
     "id": "answer6_2",
-    "message": "Je suis essouflé et j'ai la tête qui tourne",
+    "message": "Je suis essouflé et j'ai la tête qui tourne.",
     "trigger": "seventh_issues"
   },
   {
     "id": "answer6_3",
-    "message": "J'ai mal aux bras, aux dents, à la mâchoire et ça me sert au niveau du coeur, et j'ai des nausées",
+    "message": "J'ai mal aux bras, aux dents, à la mâchoire et ça me sert au niveau du coeur, et j'ai des nausées.",
     "trigger": "seventh_issues"
   },
   {
     "id": "answer6_4",
-    "message": "J'ai le coeur qui bat très vite et je suis obligé de m'asseoir sinon je m'évanouis",
+    "message": "J'ai le coeur qui bat très vite et je suis obligé de m'asseoir sinon je m'évanouis.",
     "trigger": "seventh_issues"
   },
   {
     "id": "seventh_issues",
     "options": [
       {
-        "value": "Est ce que vous vivez correctement ? Parce que si vous fumez, buvez et êtes angoissé ça vaut pas la peine d'aller plus loin, faut vous remettre en question ",
-        "label": "Est ce que vous vivez correctement ? Parce que si vous fumez, buvez et êtes angoissé ça vaut pas la peine d'aller plus loin, faut vous remettre en question ",
+        "value": "Est ce que vous vivez correctement ? Parce que si vous fumez, buvez et êtes angoissé ça vaut pas la peine d'aller plus loin, faut vous remettre en question",
+        "label": "Est ce que vous vivez correctement ? Parce que si vous fumez, buvez et êtes angoissé ça vaut pas la peine d'aller plus loin, faut vous remettre en question",
         "trigger": "answer7_1"
       },
       {
@@ -301,7 +301,7 @@
   },
   {
     "id": "answer7_1",
-    "message": "Oui je fume 2 paquets de cigarettes par jour et j'aime bien boire une bière à chaque repas",
+    "message": "Oui je fume 2 paquets de cigarettes par jour et j'aime bien boire une bière à chaque repas.",
     "trigger": "eighth_issues"
   },
   {
@@ -311,12 +311,12 @@
   },
   {
     "id": "answer7_3",
-    "message": "Je suis pas mal angoissé en ce moment, je suis anxieux",
+    "message": "Je suis pas mal angoissé en ce moment, je suis anxieux.",
     "trigger": "eighth_issues"
   },
   {
     "id": "answer7_4",
-    "message": "Pas spécialement, mais j'ai toujours fait beaucoup de sport, beaucoup de cardio",
+    "message": "Pas spécialement, mais j'ai toujours fait beaucoup de sport, beaucoup de cardio.",
     "trigger": "eighth_issues"
   },
   {
@@ -356,12 +356,12 @@
   },
   {
     "id": "answer8_3",
-    "message": "Oui, j'ai commencé à prendre de la testostérone pour préparer une compétition de musculation",
+    "message": "Oui, j'ai commencé à prendre de la testostérone pour préparer une compétition de musculation.",
     "trigger": "nineth_issues"
   },
   {
     "id": "answer8_4",
-    "message": "Non je n'ai rien commencé mais quand j'y pense, je bois beaucoup de café en ce moment",
+    "message": "Non je n'ai rien commencé mais quand j'y pense, je bois beaucoup de café en ce moment.",
     "trigger": "nineth_issues"
   },
   {
@@ -383,8 +383,8 @@
         "trigger": "answer9_3"
       },
       {
-        "value": "Bon c'est pas nécessaire d'écouter votre coeur",
-        "label": "Bon c'est pas nécessaire d'écouter votre coeur",
+        "value": "Bon c'est pas nécessaire d'écouter votre coeur.",
+        "label": "Bon c'est pas nécessaire d'écouter votre coeur.",
         "trigger": "answer9_4"
       }
     ]

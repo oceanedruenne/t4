@@ -6,13 +6,20 @@ import Jauge from '../routes/jauge';
 export default function Infos()
 {
     return (
-        <div id="left_side" class="gradient-border">
+        <div id="left_side">
             <div id="infos_patients">
             <img src={chat} id="photo"></img>
                 <h2>Julien Charistoy</h2>
                 <h3>Symptômes : Douleurs au coeur </h3>
                 <h3>Couverture : </h3>
                 <h3>Pensées du patient : </h3>
+                <div class="container">
+                    <div class="preloader">
+                        <span class="black"></span>
+                        <span class="black"></span>
+                        <span class="black"></span>
+                    </div>
+                </div>
             </div>
             <div id="game_infos">
             <div id="jauges">

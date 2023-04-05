@@ -107,7 +107,7 @@ export default function Jauge()
     <tr style={{ display: 'flex', paddingLeft:'5px'}}>
       <td style={{paddingLeft:'10px'}}> 
         <span className='texte-jauge'> 
-          <p className='param_text'> inquietude</p>
+          <p className='param_text'>Inquiétude</p>
           <div className='progress' style={{width:'130%'}} >
             <div className='progress-value' style={{ width: inquietude+ "%"}}> {inquietude}%</div>
           </div>
