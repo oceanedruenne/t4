@@ -1,0 +1,13 @@
+stages:
+  - build
+
+build:
+  image: node:latest    # Run the job in a `node` docker image
+  stage: build
+  script:
+    - cd t4
+    - npm ci
+    - npm run build
+  artifacts:
+    paths:
+      - t4/dist
