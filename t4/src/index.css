@@ -12,13 +12,16 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-
   
 }
 
 html {
   background-color: #FAFAFA;
-  
+  background-image: url("../src/assets/images/brouillon.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: 100% 100%;
 }
 
 a {
@@ -79,7 +82,7 @@ button:focus-visible {
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: stretch;
-	align-content: stretch;
+	align-content: space-between;
 }
 
 #jauges 
@@ -104,12 +107,29 @@ button:focus-visible {
 
 #left_side, #right_side
 {
-  border: 3px solid black;
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.3);
   border-radius: 20px;
+  background-color: #FAFAFA;
+  margin-top: 10%;
 }
 
-#img 
+#left_side 
 {
-  height: 100px;
-  width: 100px;
+  margin-right: 25%;
 }
+
+#photo 
+{
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 60px;
+}
+
+h2,h3 
+{
+  margin-left: 10px;
+}
+
