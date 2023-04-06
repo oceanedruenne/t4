@@ -38,8 +38,8 @@ Les étapes du projet tuteuré T2 sont les suivantes :
   - [x] Au moins trois propositions d'améliorations sont faites.
   - [ ] Moins de trois propositions d'améliorations sont faites.
 - Propositions d'amélioration du Cahier des charges
-  - [ ] Au moins cinq propositions d'améliorations pertinente sont faites.
-  - [x] Au moins cinq propositions d'améliorations sont faites.
+  - [x] Au moins cinq propositions d'améliorations pertinente sont faites.
+  - [ ] Au moins cinq propositions d'améliorations sont faites.
   - [ ] Moins de cinq propositions d'améliorations sont faites.
 - Implication
   - [ ] L'implication T2 été vraiment été cruciale dans le processus du T4.
