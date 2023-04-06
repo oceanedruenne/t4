@@ -17,7 +17,7 @@
 
 html {
   background-color: #FAFAFA;
-  background-image: url("../src/assets/images/brouillon.png");
+  background-image: url("../src/assets/images/neutral.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
@@ -106,6 +106,7 @@ button:focus-visible {
   box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.3);
   border-radius: 20px;
   background-color: #FAFAFA;
+  color: #1a1a1a;
   margin-top: 10%;
 }
 

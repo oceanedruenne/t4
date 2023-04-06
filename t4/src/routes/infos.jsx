@@ -1,4 +1,3 @@
-import chat from '../assets/images/brouillon.png'
 import Jauges from '../routes/jauge';
 import person from '../data/person.json';
 
