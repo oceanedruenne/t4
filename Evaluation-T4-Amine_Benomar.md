@@ -30,16 +30,16 @@ Les étapes du projet tuteuré T2 sont les suivantes :
 
 - Procédure
   - [ ] La procédure a été suivie à la lettre sans le moindre écart.
-  - [ ] La procédure a été globalement suivie.
-  - [x] La procédure n'a pas été bien suivie.
+  - [X] La procédure a été globalement suivie.
+  - [ ] La procédure n'a pas été bien suivie.
 - Propositions d'amélioration du jeu
   - [ ] Au moins trois propositions d'améliorations pertinente sont faites.
   - [ ] Au moins trois propositions d'améliorations sont faites.
-  - [x] Moins de trois propositions d'améliorations sont faites.
+  - [X] Moins de trois propositions d'améliorations sont faites.
 - Propositions d'amélioration du Cahier des charges
   - [ ] Au moins cinq propositions d'améliorations pertinente sont faites.
   - [ ] Au moins cinq propositions d'améliorations sont faites.
-  - [x] Moins de cinq propositions d'améliorations sont faites.
+  - [X] Moins de cinq propositions d'améliorations sont faites.
 - Implication
   - [ ] L'implication T2 été vraiment été cruciale dans le processus du T4.
   - [ ] L'implication T2 a permis d'améliorer le T4.
