@@ -4,41 +4,41 @@ import { useState } from 'react';
 import person from '../data/person.json';
 
 export default function Root() {
-  const [satisfaction, _setSatisfaction] = useState(person.satisfaction);
-  const [inquietude, _setInquietude]= useState(person.inquietude);
-  const [motivation, _setMotivation] = useState(person.motivation);
-  const [comprehension, _setComprehension] = useState(person.comprehension);
+  const [satisfaction, setSatisfaction] = useState(person.satisfaction);
+  const [inquietude, setInquietude]= useState(person.inquietude);
+  const [motivation, setMotivation] = useState(person.motivation);
+  const [comprehension, setComprehension] = useState(person.comprehension);
 
-  function setSatisfaction(value)
+  function addSatisfaction(value)
   {
-    _setSatisfaction(s => {
+    setSatisfaction(s => {
       value += s;
       if (value >= 0 && value <= 100) return value;
       else throw new Error("Satisfaction must be between 0 and 100");
     });
   }
 
-  function setInquietude(value)
+  function addInquietude(value)
   {
-    _setInquietude(i => {
+    setInquietude(i => {
       value += i;
       if (value >= 0 && value <= 100) return value;
       else throw new Error("Inquietude must be between 0 and 100");
     });
   }
    
-  function setMotivation(value)
+  function addMotivation(value)
   {
-    _setMotivation(m => {
+    setMotivation(m => {
       value += m;
       if (value >= 0 && value <= 100) return value;
       else throw new Error("Motivation must be between 0 and 100");
     });
   }
 
-  function setComprehension(value)
+  function addComprehension(value)
   {
-    _setComprehension(c => {
+    setComprehension(c => {
       value += c;
       if (value >= 0 && value <= 100) return value;
       else throw new Error("Comprehension must be between 0 and 100");
@@ -49,8 +49,10 @@ export default function Root() {
     <header>
     </header>
     <main id="main">
-        <Infos comprehension={comprehension} satisfaction={satisfaction} motivation={motivation} inquietude={inquietude}/>
-        <Bot />
+        <Infos comprehension={comprehension} satisfaction={satisfaction}
+          motivation={motivation} inquietude={inquietude}/>
+        <Bot addComprehension={addComprehension} addSatisfaction={addSatisfaction}
+          addMotivation={addMotivation} addInquietude={addInquietude} />
     </main>
     <footer>
     </footer>

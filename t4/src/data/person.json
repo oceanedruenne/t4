@@ -3,8 +3,8 @@
     "symptoms": ["Douleurs au cœur"],
     "cmu": true,
     "thinking": "",
-    "satisfaction": 50,
+    "motivation": 50,
     "inquietude": 70,
-    "comprehension": 30,
-    "motivation": 50
+    "satisfaction": 50,
+    "comprehension": 30
 }

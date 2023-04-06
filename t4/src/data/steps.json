@@ -1,16 +1,21 @@
 [
   {
-    "id": "bjr",
-    "message": "Bonjour Docteur !",
+    "id": "intro",
+    "message": "J'ai des douleurs au coeur...",
     "trigger": "first_issues"
   },
   {
     "id": "first_issues",
     "options": [
       {
-        "value": "Bonjour ! Que puis-je faire pour vous ?",
-        "label": "Bonjour ! Que puis-je faire pour vous ?",
-        "trigger": "answer1_1"
+        "label": "Ça dure depuis longtemps votre truc ?",
+        "trigger": "answer1_1",
+        "metadata": {
+          "motivation": -5,
+          "inquietude": 0,
+          "satisfaction": -5,
+          "comprehension": 0
+        }
       },
       {
         "value": "Bon qu'est ce qu'il y a encore ! Je vous ai vu il y a 3 jours déjà",
@@ -32,7 +37,13 @@
   {
     "id": "answer1_1",
     "message": "J'ai mal au coeur.",
-    "trigger": "second_issues"
+    "trigger": "second_issues",
+    "metadata": {
+      "motivation": -5,
+      "inquietude": 0,
+      "satisfaction": -5,
+      "comprehension": 0
+    }
   },
   {
     "id": "answer1_2",
