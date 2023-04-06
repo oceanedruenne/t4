@@ -45,6 +45,26 @@ export default function Root() {
     });
   }
 
+  function satisfactionInRange([min, max])
+  {
+    return satisfaction >= min && satisfaction <= max;
+  }
+
+  function inquietudeInRange([min, max])
+  {
+    return inquietude >= min && inquietude <= max;
+  }
+
+  function motivationInRange([min, max])
+  {
+    return motivation >= min && motivation <= max;
+  }
+
+  function comprehensionInRange([min, max])
+  {
+    return comprehension >= min && comprehension <= max;
+  }
+
   return (<>
     <header>
     </header>
@@ -52,7 +72,9 @@ export default function Root() {
         <Infos comprehension={comprehension} satisfaction={satisfaction}
           motivation={motivation} inquietude={inquietude}/>
         <Bot addComprehension={addComprehension} addSatisfaction={addSatisfaction}
-          addMotivation={addMotivation} addInquietude={addInquietude} />
+          addMotivation={addMotivation} addInquietude={addInquietude}
+          comprehensionInRange={comprehensionInRange} satisfactionInRange={satisfactionInRange}
+          motivationInRange={motivationInRange} inquietudeInRange={inquietudeInRange} />
     </main>
     <footer>
     </footer>
