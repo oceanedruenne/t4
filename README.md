@@ -1,7 +1,7 @@
 # JAL23-T4-C - Les poids lourds
 - **Thème :** santé
-- **Durée de développement**: 48h
-- **Équipe **: Céline AZHZHAN -  Evguenia SOBINE  - Océane DRUENNE- Charles LESECQ
+- **Durée de développement:** 48h
+- **Équipe:** Céline AZHZHAN -  Evguenia SOBINE  - Océane DRUENNE- Charles LESECQ
 
 - Liens vers les évaluations T4 :
   - [Amine Benomar](./Evaluation-T4-Amine_Benomar.md)
