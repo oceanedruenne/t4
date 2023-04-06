@@ -1,7 +1,10 @@
 import ChatBot from "react-simple-chatbot";
 import steps from '../data/steps.json';
 
-export default function Bot({addSatisfaction, addInquietude, addMotivation, addComprehension, satisfactionInRange, inquietudeInRange, motivationInRange, comprehensionInRange})
+export default function Bot({
+    addSatisfaction, addInquietude, addMotivation, addComprehension,
+    satisfactionInRange, inquietudeInRange, motivationInRange, comprehensionInRange,
+    setThinking})
 {
     steps.map(step => {
         let trigger = step["trigger"];
@@ -22,8 +25,6 @@ export default function Bot({addSatisfaction, addInquietude, addMotivation, addC
                         c['metadata_true'] : c['metadata_false'];
                 }
 
-                console.log(m);
-
                 if (m["comprehension"] !== undefined)
                     addComprehension(m["comprehension"]);
                 if (m["motivation"] !== undefined)
@@ -32,8 +33,9 @@ export default function Bot({addSatisfaction, addInquietude, addMotivation, addC
                     addInquietude(m["inquietude"]);
                 if (m["satisfaction"] !== undefined)
                     addSatisfaction(m["satisfaction"]);
-                if (m["thinking"] !== undefined)
-                    console.log(m["thinking"]);
+
+                console.log(m["thinking"]);
+                setThinking(m["thinking"]);
             }
 
             return trigger;

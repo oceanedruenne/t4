@@ -8,6 +8,7 @@ export default function Root() {
   const [inquietude, setInquietude]= useState(person.inquietude);
   const [motivation, setMotivation] = useState(person.motivation);
   const [comprehension, setComprehension] = useState(person.comprehension);
+  const [thinking, setThinking] = useState(null);
 
   function addSatisfaction(value)
   {
@@ -70,11 +71,12 @@ export default function Root() {
     </header>
     <main id="main">
         <Infos comprehension={comprehension} satisfaction={satisfaction}
-          motivation={motivation} inquietude={inquietude}/>
+          motivation={motivation} inquietude={inquietude} thinking={thinking} />
         <Bot addComprehension={addComprehension} addSatisfaction={addSatisfaction}
           addMotivation={addMotivation} addInquietude={addInquietude}
           comprehensionInRange={comprehensionInRange} satisfactionInRange={satisfactionInRange}
-          motivationInRange={motivationInRange} inquietudeInRange={inquietudeInRange} />
+          motivationInRange={motivationInRange} inquietudeInRange={inquietudeInRange}
+          setThinking={setThinking} />
     </main>
     <footer>
     </footer>
