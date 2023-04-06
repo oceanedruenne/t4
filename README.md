@@ -1,7 +1,7 @@
 # JAL23-T4-C - Les poids lourds
-- **thème **: Santé
-- **durée de développement **: 48h
-- **équipe **: Céline AZHZHAN -  Evguenia SOBINE  - Océane DRUENNE- Charles LESECQ
+- **Thème :** santé
+- **Durée de développement**: 48h
+- **Équipe **: Céline AZHZHAN -  Evguenia SOBINE  - Océane DRUENNE- Charles LESECQ
 
 - Liens vers les évaluations T4 :
   - [Amine Benomar](./Evaluation-T4-Amine_Benomar.md)
@@ -23,12 +23,12 @@ La consultation chez un médecin généraliste engage plusieurs aspects (le prof
 ## Captures d'écran
 
 ## TO DO 
-- [] Cahier des charges 
-- [] Maquette 
-- [] Choix du langage et de l'IDE 
-- [] Mettre en place la structure de code (quelles classes, quelles fonctions)
-- [] Représentations graphiques des objets 
-- [] Code 
-- [] Test 
+- [X] Cahier des charges 
+- [X] Maquette 
+- [X] Choix du langage et de l'IDE 
+- [X] Mettre en place la structure de code (quelles classes, quelles fonctions)
+- [X] Représentations graphiques des objets 
+- [X] Code 
+- [X] Test 
 - [] Démo 
 - [] dodo
