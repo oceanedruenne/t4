@@ -20,9 +20,13 @@ La consultation chez un médecin généraliste engage plusieurs aspects (le prof
 
 ## Procédures d'installation et d'exécution
 
+Pour jouer au jeu, suivez le lien suivant :
+
 https://t4-poids-lourds.pages.unistra.fr/t4/
 
 ## Captures d'écran
+
+![](./capture-jeu.png)
 
 ## TO DO 
 - [X] Cahier des charges 
