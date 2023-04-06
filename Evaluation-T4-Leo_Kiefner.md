@@ -23,11 +23,11 @@ Les étapes du projet tuteuré T2 sont les suivantes :
 
 # Propositions d'amélioration du jeu
 
-- Proposition 1
-- Proposition 2
+- Proposition 1 :  Développer plusieurs caracteres de personnages ainsi que des problemes médicaux qui varient pourraient ajouter un aspect plus divertissant au jeu, créant donc une réelle envie de faire plusieurs parties variées. 
+- Proposition 2 : Créer un systeme de score. Dans l'état actuel du jeu, il n'y a aucune fin, on ne peut donc pas comprendre si on a bien su identifier les soucis et les attentes du patients en fonction de ses statistiques. Par exemple, calculer le score en fonction du pourcentage de sa motivation, sa compréhension, son inquiétude et sa satisfaction.
+- Proposition 3 : Corrigre les quelques bugs présents dans le jeu (choix des questions, pas d'ecran de fin, impossibilité de relancer le jeu sans actualiser la page, etc...)
 
-## Grille d'évaluation T2 (à remplir par les membres du groupe T4)
-
+## Grille d'évaluation T2 (à remplir par les membres du groupe T4) 
 - Procédure
   - [ ] La procédure a été suivie à la lettre sans le moindre écart.
   - [ ] La procédure a été globalement suivie.
@@ -77,124 +77,124 @@ Les étapes du projet tuteuré T2 sont les suivantes :
 
 ## GIT 
 - Organisation
-  - [ ] Les fichiers sources suivent une organisation et des règles de nommage clairement établie.
+  - [x] Les fichiers sources suivent une organisation et des règles de nommage clairement établie.
   - [ ] Les fichiers sources sont tous partagés et organisés.
-  - [x] Certains fichiers sources ne sont pas partagés ou leur organisation laisse à désirer.
+  - [ ] Certains fichiers sources ne sont pas partagés ou leur organisation laisse à désirer.
 - Versioning
-  - [ ] La granularité des commits est pertinente et les commits sont clairement et systématique renseignés.
+  - [x] La granularité des commits est pertinente et les commits sont clairement et systématique renseignés.
   - [ ] La granularité des commits n'est pas pertinente ou les commits ne sont pas clairement et systématiquement renseignés.
-  - [x] La granularité des commits n'est pas pertinente et les commits ne sont pas clairement et systématiquement renseignés.
+  - [ ] La granularité des commits n'est pas pertinente et les commits ne sont pas clairement et systématiquement renseignés.
 - Droits d'accès
-  - [ ] Julien Gossa a le rôle avec le plus de droits sur le dépôt GIT et ce dépôt est accessible à tous.
+  - [x] Julien Gossa a le rôle avec le plus de droits sur le dépôt GIT et ce dépôt est accessible à tous.
   - [ ] Julien Gossa a le rôle avec le plus de droits sur le dépôt GIT.
-  - [x] Julien Gossa n'a pas le rôle avec le plus de droits sur le dépôt GIT.
+  - [ ] Julien Gossa n'a pas le rôle avec le plus de droits sur le dépôt GIT.
 - README.md
   - [ ] Le README est complet, avec : une présentation du projet, la procédure d'installation et d'exécution, et des captures d'écran du jeu.
-  - [ ] Le README n'est pas complet.
-  - [x] Il n'y a pas de README.
+  - [x] Le README n'est pas complet.
+  - [ ] Il n'y a pas de README.
 - CDC.md
-  - [ ] Le CDC est conforme au document partagé de travail, et les deux sont liés depuis le README.
+  - [x] Le CDC est conforme au document partagé de travail, et les deux sont liés depuis le README.
   - [ ] Le CDC est conforme au document partagé de travail, ou les deux sont liés depuis le README.
-  - [x] Le CDC n'est oas conforme au document partagé de travail, et les deux ne sont pas liés depuis le README.
+  - [ ] Le CDC n'est oas conforme au document partagé de travail, et les deux ne sont pas liés depuis le README.
 
 
-Justifications :
+Justifications : Les fichiers sont organisés selon les structures de développement Web. Il est facilement possible de se retrouver dans l'historique du git grace aux commits du groupe avec des noms plutot pertinents et reguliers. Les droits d'acces sont aussi correctemet assignés permettant a tout le monde d'accédet au git. Le README lui neanmoins manque de justification quand a l'acces au jeu ainsi que de captures d'ecrans explicative du jeu pour comprendre celui-ci. Le cahier des charges quand a lui est excellent, compréhensible et complet, nous avons eu tres peu de commentaires a faire.
 
 ## Prototype
 - Installation
-  - [ ] Le prototype s'installe sans effort.
+  - [x] Le prototype s'installe sans effort.
   - [ ] Le prototype s'installe en suivant une procédure.
-  - [x] Le prototype ne s'installe pas.
+  - [ ] Le prototype ne s'installe pas.
 - Exécution
-  - [ ] Le prototype s'exécute en cliquant sur une icône.
+  - [x] Le prototype s'exécute en cliquant sur une icône.
   - [ ] Le prototype s'exécute en suivant une procédure.
-  - [x] Le prototype ne s'exécute pas
+  - [ ] Le prototype ne s'exécute pas
 - Stabilité
-  - [ ] Le prototype est parfaitement stable
+  - [x] Le prototype est parfaitement stable
   - [ ] Le prototype est rarement instable
-  - [x] Le prototype est instable
+  - [ ] Le prototype est instable
 - Affordabilité
-  - [ ] Toutes les instructions de jeu sont inclues dans le prototype au cours d'une partie normale.
+  - [x] Toutes les instructions de jeu sont inclues dans le prototype au cours d'une partie normale.
   - [ ] Les instructions de jeu sont sous forme d'un manuel ou d'un tutoriel à part.
-  - [x] Les instructions de jeu ne sont pas données.
+  - [ ] Les instructions de jeu ne sont pas données.
 - Transmission du concept
-  - [ ] Le prototype permet de parfaitement transmettre le concept-cible au joueur.
+  - [x] Le prototype permet de parfaitement transmettre le concept-cible au joueur.
   - [ ] Le prototype permet de transmettre le concept-cible au joueur.
-  - [x] Le prototype ne permet pas de transmettre le concept-cible au joueur.
+  - [ ] Le prototype ne permet pas de transmettre le concept-cible au joueur.
 
-Justifications :
+Justifications : On peut acceder au prototype en simplement cliquant sur un lien ce qui l'execute directement. Lors de l'utilisation de celui-ci, il n'y a eu aucun crash permettant la bonne execution du jeu. Les instructions sont accessibles dans le jeu mais pas clairement affichées (il faudrait remplacer les instructions affichées en passant la souris par dessus par un bouton cliquable affichant une fenetre par exemple). Le concept est quand a lui parfaitement compris, on comprends les enjeux de la formulation du medecin et son influence sur le patient.
  
 ## Cahier des charges
 - Modèle de document
-  - [ ] Le CdC respecte parfaitement le modèle de document.
+  - [x] Le CdC respecte parfaitement le modèle de document.
   - [ ] Le CdC respecte globalement le modèle de document.
-  - [x] Le CdC ne respecte pas le modèle de document.
+  - [ ] Le CdC ne respecte pas le modèle de document.
 - Description de l'application
-  - [ ] La description permet de se faire une idée précise et exhaustive de l'application attendue.
+  - [x] La description permet de se faire une idée précise et exhaustive de l'application attendue.
   - [ ] La description permet de se faire une idée de l'application attendue.
-  - [x] La description ne permet pas de se faire une idée de l'application attendue.
+  - [ ] La description ne permet pas de se faire une idée de l'application attendue.
 - Modèle conceptuel
   - [ ] Le modèle conceptuel applicatif (MCD ou digramme de classe) est exhaustif et détaillé.
-  - [ ] Le modèle conceptuel applicatif (MCD ou digramme de classe) est donné.
-  - [x] Le modèle conceptuel applicatif (MCD ou digramme de classe) n'est pas donné.
+  - [x] Le modèle conceptuel applicatif (MCD ou digramme de classe) est donné.
+  - [ ] Le modèle conceptuel applicatif (MCD ou digramme de classe) n'est pas donné.
 
-Justifications : 
+Justifications : Le cahier des charges respecte parfaitement le modele de document, personnelement, je n'y vois rien a y modifier, la description est explicite et comprehensible de tous. Le MCD quand a lui laisse une idée trop vague du projet, il faudrait le détailler pour mieux comprendre comment est composé le jeu.
 
 ### Fonctionnalités
 - Actions du joueur
-  - [ ] La description des actions du joueur permet de connaitre parfaitement les interactions avec l'application.
+  - [x] La description des actions du joueur permet de connaitre parfaitement les interactions avec l'application.
   - [ ] La description des actions du joueur permet de se faire une première idées des interactions avec l'utilisateur.
-  - [x] La description des actions du joueur ne pas permet pas de se faire une première idées des interactions avec l'utilisateur.
+  - [ ] La description des actions du joueur ne pas permet pas de se faire une première idées des interactions avec l'utilisateur.
 - Infomations au joueur
-  - [ ] La description des informations au joueur permet de connaitre parfaitement les interactions avec l'application.
+  - [x] La description des informations au joueur permet de connaitre parfaitement les interactions avec l'application.
   - [ ] La description des informations au joueur permet de se faire une première idées des interactions avec l'utilisateur.
-  - [x] La description des informations au joueur ne pas permet pas de se faire une première idées des interactions avec l'utilisateur.
+  - [ ] La description des informations au joueur ne pas permet pas de se faire une première idées des interactions avec l'utilisateur.
 - Description du moteur interne
-  - [ ] La description du moteur interne permet de comprendre parfaitement le fonctionnement de l'application.
+  - [x] La description du moteur interne permet de comprendre parfaitement le fonctionnement de l'application.
   - [ ] La description du moteur interne permet de comprendre le fonctionnement de l'application.
-  - [x] La description du moteur interne ne permet pas de comprendre le fonctionnement de l'application.
+  - [ ] La description du moteur interne ne permet pas de comprendre le fonctionnement de l'application.
 - Découpage modulaire 
-  - [ ] L'application est couverte par des modules pertinents et pleinement décrits.
+  - [x] L'application est couverte par des modules pertinents et pleinement décrits.
   - [ ] L'application est découpée en modules pertinents.
-  - [x] L'application n'est pas découpée en modules pertinents.
+  - [ ] L'application n'est pas découpée en modules pertinents.
 - Granularité des fonctionnalités
   - [ ] Les fonctionnalités sont très fines.
-  - [ ] Les fonctionnalités sont fines.
-  - [x] Les fonctionnalités sont grossières.
+  - [x] Les fonctionnalités sont fines.
+  - [ ] Les fonctionnalités sont grossières.
 - Exhaustivité des fonctionnalités
-  - [ ] Les fonctionnalités couvrent la totalité de l'application.
+  - [x] Les fonctionnalités couvrent la totalité de l'application.
   - [ ] Les fonctionnalités couvrent globalement l'application.
-  - [x] Les fonctionnalités ne couvrent pas l'application.
+  - [ ] Les fonctionnalités ne couvrent pas l'application.
 - Description des fonctionnalités
-  - [ ] Les fonctionnalités sont précisément décrites.
+  - [x] Les fonctionnalités sont précisément décrites.
   - [ ] Les fonctionnalités sont décrites.
-  - [x] Les fonctionnalités ne sont pas bien décrites.
+  - [ ] Les fonctionnalités ne sont pas bien décrites.
 - Priorisation des fonctionnalités
-  - [ ] Les fonctionnalités sont classées par priorités de façon pertinentes.
+  - [x] Les fonctionnalités sont classées par priorités de façon pertinentes.
   - [ ] Les fonctionnalités sont classées par priorités.
-  - [x] Les fonctionnalités ne sont pas classées par priorités.
+  - [ ] Les fonctionnalités ne sont pas classées par priorités.
 - Difficulté des fonctionnalités
   - [ ] Les fonctionnalités sont annotées par une difficulté pertinente.
-  - [ ] Les fonctionnalités sont annotées par une difficulté.
-  - [x] Les fonctionnalités ne sont pas annotées par une difficulté.
+  - [x] Les fonctionnalités sont annotées par une difficulté.
+  - [ ] Les fonctionnalités ne sont pas annotées par une difficulté.
 
-Justifications : 
+Justifications : Les fonctionnalités sont assez completes avec des animations et une belle interface graphique. Celles ci sont assez bien representees et on s'y retrouve plutot facilement sur le jeu. 
 
 ### Scénarios
 - Nombre
   - [ ] Au moins un scénario est pleinement développé et propose au moins deux alternatives.
-  - [ ] Un scénario est pleinement développé.
-  - [x] Un scénario n'est pas pleinement développé.
+  - [x] Un scénario est pleinement développé.
+  - [ ] Un scénario n'est pas pleinement développé.
 - Exhaustivité
-  - [ ] Le scénario développé s'appuie sur toutes les fonctionnalités.
+  - [x] Le scénario développé s'appuie sur toutes les fonctionnalités.
   - [ ] Le scénario développé s'appuie sur toutes les fonctionnalités principales
-  - [x] Le scénario développé ne s'appuie pas sur toutes les fonctionnalités principales.
+  - [ ] Le scénario développé ne s'appuie pas sur toutes les fonctionnalités principales.
 - Scénarios additionnels 
   - [ ] Des scénarios additionnels sont proposés, en expliquant leur intérêt. 
   - [ ] Des scénarios additionnels sont proposés. 
   - [x] Des scénarios additionnels ne sont pas proposés.
 
-Justifications :
+Justifications : Le seul scénario développé est un scénario de problemes cardiaque. Celui-ci est plutot complet avec toutes les fonctionnalités renseignées dans le cahier des charges. Aucun autre scénario n'est proposé ce qui est plutot dommage.
 
 ## Résultat T4
 - Total d'item « Excellent » (2 point) : 
