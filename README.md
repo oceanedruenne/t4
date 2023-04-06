@@ -32,5 +32,5 @@ https://t4-poids-lourds.pages.unistra.fr/t4/
 - [X] Représentations graphiques des objets 
 - [X] Code 
 - [X] Test 
-- [] Démo 
+- [X] Démo 
 - [] dodo
