@@ -33,4 +33,6 @@ https://t4-poids-lourds.pages.unistra.fr/t4/
 - [X] Code 
 - [X] Test 
 - [X] Démo 
-- [] dodo
+- [X] dodo
+
+![meme kermit](https://i.ibb.co/XxxP4Yz/7h94zv.png)
