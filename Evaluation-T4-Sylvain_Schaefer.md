@@ -27,7 +27,7 @@ Les étapes du projet tuteuré T2 sont les suivantes :
 - Proposition 2 : Ajouter d'autres personnages avec des jauges d'émotions par défaut différentes et des réactions différentes.
 - Proposition 3 : Ajouter un mode "SpeedRun" avec un décompte pour chaque choix, si le joueur met trop de temp à répondre, le patient s'énerve et donc ses émotions changent.
 - Proposition 4 : Proposer des symptômes aléatoires en début de partie qui nécessite différentes approches émotionnelles par le joueur.
-- Proposition 5 (bonus): Proposer au joueur d'écrire sa propre réponse et analyse les émotions dans sa réponse par une intelligence artificielle et changer les jauges d'émotions en fonction
+- Proposition 5 (bonus): Proposer au joueur d'écrire sa propre réponse et analyse les émotions dans sa réponse par une intelligence artificielle et changer les jauges d'émotions en fonction.
 
 ## Grille d'évaluation T2 (à remplir par les membres du groupe T4)
 
