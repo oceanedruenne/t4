@@ -13,7 +13,6 @@ export default function Infos({comprehension, motivation, inquietude, satisfacti
                 <button id="informations" 
                 title="Cardiaque = coeur | Anxiolytique = Médicament qui aide à calmer l'anxieté, le stress d'une personne | Xanax = médicament de type anxiolytique | Angine de poitrine = Douleur vive ressentie au coeur lors d'un effort ou d'une forte émotion | ECG = ÉlectroCardioGramme | Méthylphénidate : Médicament qui aide à la concentration et qui peut augmenter le nombre de battements par minute du coeur | Testostérone : Hormone masculine">Lexique</button>
                 <div id="infos_patients">
-                    <img src={chat} id="photo"></img>
                     <h2>{person.name}</h2>
                     <h3>Symptômes :</h3>
                     <ul>
