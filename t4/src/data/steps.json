@@ -9,14 +9,17 @@
     "options": [
       {
         "label": "Ça dure depuis longtemps votre truc ? ",
+        "value": "Ça dure depuis longtemps votre truc ? )",
         "trigger": "answer1_1"
       },
       {
         "label": "Vous avez cette douleur depuis combien de temps ?",
+        "value": "Vous avez cette douleur depuis combien de temps ?)",
         "trigger": "answer1_2"
       },
       {
         "label": "Est ce que cela vous fait mal depuis longtemps ?",
+        "value": "Est ce que cela vous fait mal depuis longtemps ?)",
         "trigger": "answer1_3"
       }
     ]
@@ -70,14 +73,17 @@
     "options": [
       {
         "label": "Vous avez mal comment ?",
+        "value": "Vous avez mal comment ?)",
         "trigger": "answer2_1"
       },
       {
         "label": "Est ce que c'est une douleur vive, comme un coup de couteau, ou est ce que c'est une douleur qui vous serre au niveau du coeur ? Est ce que vous avez des douleurs dans les bras, la mâchoire ?",
+        "value": "Est ce que c'est une douleur vive, comme un coup de couteau, ou est ce que c'est une douleur qui vous serre au niveau du coeur ? Est ce que vous avez des douleurs dans les bras, la mâchoire ?)",
         "trigger": "answer2_2"
       },
       {
         "label": "Vous avez quoi en plus d'avoir mal au coeur ?",
+        "value": "Vous avez quoi en plus d'avoir mal au coeur ?)",
         "trigger": "answer2_3"
       }
     ]
@@ -131,14 +137,17 @@
     "options": [
       {
         "label": "Est ce que vous vivez correctement ? Parce que si vous fumez, buvez et êtes angoissé ça vaut pas la peine d'aller plus loin, faut vous remettre en question.",
+        "value": "Est ce que vous vivez correctement ? Parce que si vous fumez, buvez et êtes angoissé ça vaut pas la peine d'aller plus loin, faut vous remettre en question.)",
         "trigger": "answer3_1"
       },
       {
         "label": "Est ce que vous êtes dans un contexte particulièrement stressant en ce moment ? Est ce que vous fumez ?  ",
+        "value": "Est ce que vous êtes dans un contexte particulièrement stressant en ce moment ? Est ce que vous fumez ?  )",
         "trigger": "answer3_2"
       },
       {
         "label": "Est ce que vous avez fait un changement dans vos habitudes de vie, que ce soit la nourriture, le sport, le café, le tabac ? ",
+        "value": "Est ce que vous avez fait un changement dans vos habitudes de vie, que ce soit la nourriture, le sport, le café, le tabac ? )",
         "trigger": "answer3_3"
       }
     ]
@@ -179,6 +188,7 @@
       "thinking": "C'est vrai que y'a eu des changements" 
     }
   },
+  
 
   
   {
@@ -191,39 +201,26 @@
     "options": [
       {
         "label": "Faire une blague",
+        "value": "Faire une blague)",
         "trigger": "answer4_1"
       },
       {
         "label": "Ne pas faire de blague ",
+        "value": "Ne pas faire de blague )",
         "trigger": "answer4_2"
       }
     ]
   },
   {
     "id": "answer4_1",
+    "message": "Hahaha",
     "trigger": "5_issues",
-    "message": "haha",
     "metadata": {
-      "conditional": {
-        "motivation": [0, 100],
-        "inquietude": [75, 100],
-        "satisfaction": [0, 100],
-        "comprehension": [0, 100],
-        "metadata_true": {
-          "motivation": -20,
-          "inquietude": 0,
-          "satisfaction": 10,
-          "comprehension": 0,
-          "thinking": "Mais il est sérieux lui avec sa blague ?"
-        },
-        "metadata_false": {
-          "motivation": 5,
-          "inquietude": -10,
-          "satisfaction": 0,
-          "comprehension": 0,
-          "thinking": "Pas mal sa blague!"
-        }
-      }
+      "motivation": 5,
+      "inquietude": -10,
+      "satisfaction": 0,
+      "comprehension": 0,
+      "thinking": "Pas mal sa blague" 
     }
   },
   {
@@ -239,8 +236,6 @@
     }
   },
 
-
-
   {
     "id": "auscultation",
     "message": "...",
@@ -251,22 +246,27 @@
     "options": [
       {
         "label": "*Dire les bonnes mesures lors de l'auscultation.*",
+        "value": "*Dire les bonnes mesures lors de l'auscultation.*)",
         "trigger": "answer5_1"
       },
       {
         "label": "*Dire les mauvaises mesures lors de l'auscultation.*",
+        "value": "*Dire les mauvaises mesures lors de l'auscultation.*)",
         "trigger": "answer5_2"
       },
       {
         "label": "*Dire des termes cliniques lors de l'auscultation.*",
+        "value": "*Dire des termes cliniques lors de l'auscultation.*)",
         "trigger": "answer5_3"
       },
       {
         "label": "*Dire des termes simples.*",
+        "value": "*Dire des termes simples.*)",
         "trigger": "answer5_4"
       },
       {
         "label": "*Ne rien dire.*",
+        "value": "*Ne rien dire.*)",
         "trigger": "answer5_5"
       }
     ]
@@ -330,6 +330,103 @@
       "comprehension": -10,
       "thinking": "pourquoi il dit rien?"
     }
+  },
+
+
+
+
+  {
+    "id": "interrogation",
+    "message": "...",
+    "trigger": "6_issues"
+  },
+  {
+    "id": "6_issues",
+    "options": [
+      {
+        "label": "Poser plus de questions franches et sérieuses. Cela augmente le temps de consultation.",
+        "value": "Poser plus de questions franches et sérieuses. Cela augmente le temps de consultation.)",
+        "trigger": "answer6_1"
+      },
+      {
+        "label": "Ne pas poser plus de questions.",
+        "value": "Ne pas poser plus de questions.)",
+        "trigger": "answer6_2"
+      }
+    ]
+  },
+  {
+    "id": "answer6_1",
+    "message": "Oui c'est vrai je vous ai pas tout dit...",
+    "trigger": "7_issues",
+    "metadata": {
+      "motivation": -5,
+      "inquietude": -5,
+      "satisfaction": -10,
+      "comprehension": 5,
+      "thinking": "Il m'a percé à jour." 
+    }
+  },
+  {
+    "id": "answer6_2",
+    "message": "...",
+    "trigger": "7_issues",
+    "metadata": {
+      "motivation": 0,
+      "inquietude": 0,
+      "satisfaction": 5,
+      "comprehension": 0,
+      "thinking": null
+    }
+  },
+
+  {
+    "id": "explication",
+    "message": "...",
+    "trigger": "7_issues"
+  },
+  {
+    "id": "7_issues",
+    "options": [
+      {
+        "label": "Expliquer le diagnostic. Prend plus de temps.",
+        "value": "Expliquer le diagnostic. Prend plus de temps.)",
+        "trigger": "answer7_1"
+      },
+      {
+        "label": "Ne pas l'expliquer et retarde l'établissement du diagnostic.",
+        "value": "Ne pas l'expliquer et retarde l'établissement du diagnostic.)",
+        "trigger": "answer7_2"
+      }
+    ]
+  },
+  {
+    "id": "answer7_1",
+    "message": "*ecoute*",
+    "trigger": "8_issues",
+    "metadata": {
+      "motivation": 5,
+      "inquietude": -10,
+      "satisfaction": 5,
+      "comprehension": 10,
+      "thinking": "Ah au final ça va je comprends j'ai quoi" 
+    }
+  },
+  {
+    "id": "answer7_2",
+    "message": "*ecoute*",
+    "trigger": "8_issues",
+    "metadata": {
+      "motivation": -5,
+      "inquietude": 5,
+      "satisfaction": -5,
+      "comprehension": -5,
+      "thinking": "Il m'explique pas là ? Je comprends rien"
+    }
   }
+
+  
+
+
   
 ]

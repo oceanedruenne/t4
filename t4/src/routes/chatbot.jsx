@@ -15,7 +15,6 @@ export default function Bot({
 
                 if (m["conditional"] !== undefined) {
                     const c = m['conditional'];
-                    console.log(c);
 
                     const motivation = c['motivation'] === undefined || motivationInRange(c['motivation']);
                     const inquietude = c['inquietude'] === undefined || inquietudeInRange(c['inquietude']);
